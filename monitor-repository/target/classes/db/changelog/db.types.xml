@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+	<property name="numeric.1x0" value="numeric(1,0)"
+		dbms="postgresql,firebird" />
+	<property name="numeric.2x0" value="numeric(2,0)"
+		dbms="postgresql,firebird" />
+	<property name="numeric.2x2" value="numeric(2,2)"
+		dbms="postgresql,firebird" />
+	<property name="numeric.3x0" value="numeric(3,0)"
+		dbms="postgresql,firebird" />
+	<property name="numeric.3x2" value="numeric(3,2)"
+		dbms="postgresql,firebird" />
+	<property name="numeric.4x2" value="numeric(4,2)"
+		dbms="postgresql,firebird" />
+	<property name="numeric.5x2" value="numeric(5,2)"
+		dbms="postgresql,firebird" />
+	<property name="numeric.9x0" value="numeric(9,0)"
+		dbms="postgresql,firebird" />
+	<property name="numeric.9x4" value="numeric(9,4)"
+		dbms="postgresql,firebird" />
+	<property name="numeric.18x0" value="numeric(18,0)"
+		dbms="postgresql,firebird" />
+	<property name="numeric.18x1" value="numeric(18,1)"
+		dbms="postgresql,firebird" />
+	<property name="numeric.18x2" value="numeric(18,2)"
+		dbms="postgresql,firebird" />
+	<property name="numeric.18x3" value="numeric(18,3)"
+		dbms="postgresql,firebird" />
+	<property name="numeric.18x4" value="numeric(18,4)"
+		dbms="postgresql,firebird" />
+
+	<property name="numeric.1x0" value="decimal(1,0)" dbms="h2" />
+	<property name="numeric.2x0" value="decimal(2,0)" dbms="h2" />
+	<property name="numeric.2x2" value="decimal(2,2)" dbms="h2" />
+	<property name="numeric.3x0" value="decimal(3,0)" dbms="h2" />
+	<property name="numeric.3x2" value="decimal(3,2)" dbms="h2" />
+	<property name="numeric.4x2" value="decimal(4,2)" dbms="h2" />
+	<property name="numeric.5x2" value="decimal(5,2)" dbms="h2" />
+	<property name="numeric.9x0" value="decimal(9,0)" dbms="h2" />
+	<property name="numeric.9x4" value="decimal(9,4)" dbms="h2" />
+	<property name="numeric.18x0" value="decimal(18,0)" dbms="h2" />
+	<property name="numeric.18x1" value="decimal(18,1)" dbms="h2" />
+	<property name="numeric.18x2" value="decimal(18,2)" dbms="h2" />
+	<property name="numeric.18x3" value="decimal(18,3)" dbms="h2" />
+	<property name="numeric.18x4" value="decimal(18,4)" dbms="h2" />
+
+	<property name="varchar.1" value="varchar(1)"
+		dbms="postgresql,firebird,h2" />
+	<property name="varchar.2" value="varchar(2)"
+		dbms="postgresql,firebird,h2" />
+	<property name="varchar.3" value="varchar(3)"
+		dbms="postgresql,firebird,h2" />
+	<property name="varchar.4" value="varchar(4)"
+		dbms="postgresql,firebird,h2" />
+	<property name="varchar.6" value="varchar(6)"
+		dbms="postgresql,firebird,h2" />
+	<property name="varchar.10" value="varchar(10)"
+		dbms="postgresql,firebird,h2" />
+	<property name="varchar.12" value="varchar(12)"
+		dbms="postgresql,firebird,h2" />
+	<property name="varchar.14" value="varchar(14)"
+		dbms="postgresql,firebird,h2" />
+	<property name="varchar.15" value="varchar(15)"
+		dbms="postgresql,firebird,h2" />
+	<property name="varchar.16" value="varchar(16)"
+		dbms="postgresql,firebird,h2" />
+	<property name="varchar.20" value="varchar(20)"
+		dbms="postgresql,firebird,h2" />
+	<property name="varchar.30" value="varchar(30)"
+		dbms="postgresql,firebird,h2" />
+	<property name="varchar.32" value="varchar(32)"
+		dbms="postgresql,firebird,h2" />
+	<property name="varchar.40" value="varchar(40)"
+		dbms="postgresql,firebird,h2" />
+	<property name="varchar.50" value="varchar(50)"
+		dbms="postgresql,firebird,h2" />
+	<property name="varchar.60" value="varchar(60)"
+		dbms="postgresql,firebird,h2" />
+	<property name="varchar.80" value="varchar(80)"
+		dbms="postgresql,firebird,h2" />
+	<property name="varchar.100" value="varchar(100)"
+		dbms="postgresql,firebird,h2" />
+	<property name="varchar.200" value="varchar(200)"
+		dbms="postgresql,firebird,h2" />
+	<property name="varchar.254" value="varchar(254)"
+		dbms="postgresql,firebird,h2" />
+	<property name="varchar.255" value="varchar(255)"
+		dbms="postgresql,firebird,h2" />
+	<property name="varchar.500" value="varchar(500)"
+		dbms="postgresql,firebird,h2" />
+	<property name="varchar.2000" value="varchar(2000)"
+		dbms="postgresql,firebird,h2" />
+
+	<property name="char.1" value="char(1)"
+		dbms="postgresql,firebird,h2" />
+	<property name="char.2" value="char(2)"
+		dbms="postgresql,firebird,h2" />
+
+	<property name="date" value="date"
+		dbms="postgresql,firebird,h2" />
+	<property name="time" value="time"
+		dbms="postgresql,firebird,h2" />
+	<property name="timestamp" value="timestamp"
+		dbms="postgresql,firebird,h2" />
+
+	<property name="blob.binary" value="blob sub_type 0"
+		dbms="firebird" />
+	<property name="blob.binary" value="binary" dbms="h2" />
+	<property name="blob.binary" value="bytea" dbms="postgresql" />
+	<property name="blob.text" value="blob sub_type 1"
+		dbms="firebird" />
+	<property name="blob.text" value="blob" dbms="h2" />
+	<property name="blob.text" value="text" dbms="postgresql" />
+
+	<property name="current_timestamp" value="current_timestamp"
+		dbms="postgresql,firebird,h2" />
+	<property name="current_date" value="current_date"
+		dbms="postgresql,firebird,h2" />
+
+	<changeSet
+		logicalFilePath="db/changelog/db.types.xml"
+		author="Leonardo Wiest" id="20171017_113601" />
+
+</databaseChangeLog>

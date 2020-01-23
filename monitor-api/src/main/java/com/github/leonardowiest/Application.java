@@ -1,15 +1,15 @@
-package com.github.leonardowiest;                                                                                                 
-                                                                                                                         
-import org.springframework.boot.SpringApplication;                                                                       
-import org.springframework.boot.autoconfigure.SpringBootApplication;                                                    
-import org.springframework.context.annotation.PropertySource;                                                            
-                                                                                                                         
-@SpringBootApplication()                                                                                                 
-@PropertySource(ignoreResourceNotFound = false, value = "classpath:application-${spring.profiles.active}.properties")    
-public class Application {                                                                                               
-                                                                                                                         
-    public static void main(String[] args) {                                                                             
-        SpringApplication.run(Application.class, args);                                                                  
-    }                                                                                                                    
-                                                                                                                         
-}                                                                                                                        
+package com.github.leonardowiest;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.PropertySource;
+
+@SpringBootApplication()
+@PropertySource(ignoreResourceNotFound = false, value = "classpath:application-${spring.profiles.active}.properties")
+public class Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(Application.class, args);
+	}
+
+}
