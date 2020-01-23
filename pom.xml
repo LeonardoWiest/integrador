@@ -18,6 +18,7 @@
 
 	<properties>
 		<com.github.leonardowiest.version>0.0.1-SNAPSHOT</com.github.leonardowiest.version>
+		<java.version>13</java.version>
 	</properties>
 
 	<modules>
