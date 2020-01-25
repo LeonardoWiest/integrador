@@ -9,9 +9,9 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>monitor-util</artifactId>
-	<groupId>com.github.leonardowiest.util</groupId>
-	<name>MonitorUtil</name>
-	<description>Camada Util</description>
+	<artifactId>monitor-rest</artifactId>
+	<groupId>com.github.leonardowiest.rest</groupId>
+	<name>MonitorRest</name>
+	<description>Camada Rest</description>
 
 </project>                                                                                                     

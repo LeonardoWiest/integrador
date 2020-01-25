@@ -14,7 +14,7 @@
 	<artifactId>monitor</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Monitor</name>
-	<description>Projeto Monitor Modularizado</description>
+	<description>Projeto Monitor</description>
 
 	<properties>
 		<com.github.leonardowiest.version>0.0.1-SNAPSHOT</com.github.leonardowiest.version>
@@ -25,6 +25,8 @@
 		<module>monitor-util</module>
 		<module>monitor-repository</module>
 		<module>monitor-service</module>
-		<module>monitor-api</module>
+		<module>monitor-rest</module>
+		<module>monitor-starter</module>
 	</modules>
+
 </project>                                                                                                          
