@@ -1,7 +1,9 @@
 package com.github.leonardowiest.schedule.impl;
 
+import static org.springframework.beans.factory.config.ConfigurableBeanFactory.SCOPE_SINGLETON;
+
+
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.context.annotation.Scope;
 import org.springframework.scheduling.annotation.EnableScheduling;
@@ -15,7 +17,7 @@ import com.github.leonardowiest.schedule.TemporizadorFixoSchedule;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-@Scope(value = ConfigurableBeanFactory.SCOPE_SINGLETON)
+@Scope(value = SCOPE_SINGLETON)
 @EnableScheduling
 @Component
 public class TemporizadorFixoScheduleImpl implements TemporizadorFixoSchedule {
@@ -29,7 +31,7 @@ public class TemporizadorFixoScheduleImpl implements TemporizadorFixoSchedule {
 	public void sincronizar() {
 		log.trace("==> Executando o método sincronizar.");
 
-		sincronizacaoFactory.sincronizar(TipoSincronizacaoEnum.TABELAS_INFORMACOES_BASICAS);
+		sincronizacaoFactory.sincronizar(TipoSincronizacaoEnum.SINCRONIZACAO_PRIMARIA);
 	}
 
 }

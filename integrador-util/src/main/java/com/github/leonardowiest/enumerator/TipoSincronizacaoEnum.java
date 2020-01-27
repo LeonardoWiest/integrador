@@ -2,7 +2,7 @@ package com.github.leonardowiest.enumerator;
 
 public enum TipoSincronizacaoEnum {
 
-	TABELAS_INFORMACOES_BASICAS("sincTabelasInformacoesBasicasBean");
+	SINCRONIZACAO_PRIMARIA("sincronizacaoPrimaria");
 
 	private final String bean;
 
