@@ -5,13 +5,13 @@
 
 	<parent>
 		<groupId>com.github.leonardowiest</groupId>
-		<artifactId>monitor</artifactId>
+		<artifactId>integrador</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>monitor-rest</artifactId>
+	<artifactId>integrador-rest</artifactId>
 	<groupId>com.github.leonardowiest.rest</groupId>
-	<name>MonitorRest</name>
+	<name>IntegradorRest</name>
 	<description>Camada Rest</description>
 
 </project>                                                                                                     

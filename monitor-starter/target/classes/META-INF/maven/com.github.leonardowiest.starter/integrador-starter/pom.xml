@@ -5,19 +5,19 @@
 
 	<parent>
 		<groupId>com.github.leonardowiest</groupId>
-		<artifactId>monitor</artifactId>
+		<artifactId>integrador</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>monitor-starter</artifactId>
+	<artifactId>integrador-starter</artifactId>
 	<groupId>com.github.leonardowiest.starter</groupId>
-	<name>MonitorStarter</name>
+	<name>integradorStarter</name>
 	<description>Camada Starter</description>
 
 	<dependencies>
 
 		<dependency>
-			<artifactId>monitor-rest</artifactId>
+			<artifactId>integrador-rest</artifactId>
 			<groupId>com.github.leonardowiest.rest</groupId>
 			<version>${com.github.leonardowiest.version}</version>
 			<scope>provided</scope>
@@ -25,7 +25,7 @@
 		</dependency>
 
 		<dependency>
-			<artifactId>monitor-repository</artifactId>
+			<artifactId>integrador-repository</artifactId>
 			<groupId>com.github.leonardowiest.repository</groupId>
 			<version>${com.github.leonardowiest.version}</version>
 			<scope>provided</scope>
@@ -33,7 +33,7 @@
 		</dependency>
 
 		<dependency>
-			<artifactId>monitor-service</artifactId>
+			<artifactId>integrador-service</artifactId>
 			<groupId>com.github.leonardowiest.service</groupId>
 			<version>${com.github.leonardowiest.version}</version>
 			<scope>provided</scope>
@@ -41,7 +41,7 @@
 		</dependency>
 
 		<dependency>
-			<artifactId>monitor-util</artifactId>
+			<artifactId>integrador-util</artifactId>
 			<groupId>com.github.leonardowiest.util</groupId>
 			<version>${com.github.leonardowiest.version}</version>
 			<scope>provided</scope>

@@ -11,10 +11,10 @@
 
 	<packaging>pom</packaging>
 	<groupId>com.github.leonardowiest</groupId>
-	<artifactId>monitor</artifactId>
+	<artifactId>integrador</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Monitor</name>
-	<description>Projeto Monitor</description>
+	<name>integrador</name>
+	<description>Projeto integrador</description>
 
 	<properties>
 		<com.github.leonardowiest.version>0.0.1-SNAPSHOT</com.github.leonardowiest.version>
@@ -22,11 +22,11 @@
 	</properties>
 
 	<modules>
-		<module>monitor-util</module>
-		<module>monitor-repository</module>
-		<module>monitor-service</module>
-		<module>monitor-rest</module>
-		<module>monitor-starter</module>
+		<module>integrador-util</module>
+		<module>integrador-repository</module>
+		<module>integrador-service</module>
+		<module>integrador-rest</module>
+		<module>integrador-starter</module>
 	</modules>
 
 </project>                                                                                                          

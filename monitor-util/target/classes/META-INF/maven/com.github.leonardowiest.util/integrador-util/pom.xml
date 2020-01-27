@@ -5,13 +5,13 @@
 
 	<parent>
 		<groupId>com.github.leonardowiest</groupId>
-		<artifactId>monitor</artifactId>
+		<artifactId>integrador</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>monitor-util</artifactId>
+	<artifactId>integrador-util</artifactId>
 	<groupId>com.github.leonardowiest.util</groupId>
-	<name>MonitorUtil</name>
+	<name>IntegradorUtil</name>
 	<description>Camada Util</description>
 
 </project>                                                                                                     

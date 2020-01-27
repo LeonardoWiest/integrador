@@ -5,14 +5,14 @@
 
 	<parent>
 		<groupId>com.github.leonardowiest</groupId>
-		<artifactId>monitor</artifactId>
+		<artifactId>integrador</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>monitor-repository</artifactId>
+	<artifactId>integrador-repository</artifactId>
 	<groupId>com.github.leonardowiest.repository</groupId>
-	<name>MonitorRepository</name>
-	<description>Repositório do Monitor</description>
+	<name>IntegradorRepository</name>
+	<description>Repositório do Integrador</description>
 
 	<dependencies>
 
