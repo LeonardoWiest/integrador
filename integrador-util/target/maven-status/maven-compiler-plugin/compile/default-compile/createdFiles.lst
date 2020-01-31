@@ -1,0 +1,3 @@
+com\github\leonardowiest\enumerator\TipoSincronizacaoEnum.class
+com\github\leonardowiest\abstracted\TipoSincronizacaoAbstract.class
+com\github\leonardowiest\callable\TipoSincronizacaoCallable.class

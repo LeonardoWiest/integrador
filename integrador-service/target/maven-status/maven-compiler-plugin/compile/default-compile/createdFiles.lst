@@ -1,0 +1,8 @@
+com\github\leonardowiest\factory\impl\SincronizacaoFactoryImpl.class
+com\github\leonardowiest\service\impl\SincronizacaoPrimariaServiceImpl.class
+com\github\leonardowiest\schedule\TemporizadorFixoSchedule.class
+com\github\leonardowiest\factory\SincronizacaoFactory.class
+com\github\leonardowiest\service\SincronizacaoPrimariaService.class
+com\github\leonardowiest\schedule\impl\TemporizadorFixoScheduleImpl.class
+com\github\leonardowiest\factory\impl\SincronizacaoPrimariaFactoryImpl.class
+com\github\leonardowiest\factory\SincronizacaoPrimariaFactory.class
