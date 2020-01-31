@@ -4,22 +4,21 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.2.4.RELEASE</version>
+		<groupId>com.github.leonardowiest</groupId>
+		<artifactId>java-dependency-manager</artifactId>
+		<version>1.0.1-SNAPSHOT</version>
 	</parent>
 
 	<packaging>pom</packaging>
-	<groupId>com.github.leonardowiest</groupId>
 	<artifactId>integrador</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+
 	<name>integrador</name>
 	<description>Projeto integrador</description>
 
 	<properties>
-
 		<com.github.leonardowiest.version>1.0.1-SNAPSHOT</com.github.leonardowiest.version>
-		<java.version>1.8</java.version>
+
+		<java.dependency.manager.version>1.0.1-SNAPSHOT</java.dependency.manager.version>
 	</properties>
 
 	<modules>
