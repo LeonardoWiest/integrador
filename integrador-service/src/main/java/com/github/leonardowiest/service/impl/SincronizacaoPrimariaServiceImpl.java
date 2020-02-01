@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import com.github.leonardowiest.abstracted.TipoSincronizacaoAbstract;
-import com.github.leonardowiest.factory.SincronizacaoPrimariaFactory;
+import com.github.leonardowiest.service.factory.SincronizacaoPrimariaFactory;
 
 @Service("sincronizacaoPrimaria")
 public class SincronizacaoPrimariaServiceImpl implements TipoSincronizacaoAbstract {

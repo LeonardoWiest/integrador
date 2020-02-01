@@ -1,4 +1,4 @@
-package com.github.leonardowiest.schedule;
+package com.github.leonardowiest.service.schedule;
 
 @FunctionalInterface
 public interface TemporizadorFixoSchedule {

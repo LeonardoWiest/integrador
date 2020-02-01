@@ -1,7 +1,6 @@
-package com.github.leonardowiest.schedule.impl;
+package com.github.leonardowiest.service.schedule.impl;
 
 import static org.springframework.beans.factory.config.ConfigurableBeanFactory.SCOPE_SINGLETON;
-
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
@@ -11,8 +10,8 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 import com.github.leonardowiest.enumerator.TipoSincronizacaoEnum;
-import com.github.leonardowiest.factory.SincronizacaoFactory;
-import com.github.leonardowiest.schedule.TemporizadorFixoSchedule;
+import com.github.leonardowiest.service.factory.SincronizacaoFactory;
+import com.github.leonardowiest.service.schedule.TemporizadorFixoSchedule;
 
 import lombok.extern.slf4j.Slf4j;
 

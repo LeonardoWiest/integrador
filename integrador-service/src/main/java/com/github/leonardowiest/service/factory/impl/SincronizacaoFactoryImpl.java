@@ -1,4 +1,4 @@
-package com.github.leonardowiest.factory.impl;
+package com.github.leonardowiest.service.factory.impl;
 
 import java.util.EnumMap;
 import java.util.concurrent.ExecutorService;
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 import com.github.leonardowiest.abstracted.TipoSincronizacaoAbstract;
 import com.github.leonardowiest.callable.TipoSincronizacaoCallable;
 import com.github.leonardowiest.enumerator.TipoSincronizacaoEnum;
-import com.github.leonardowiest.factory.SincronizacaoFactory;
+import com.github.leonardowiest.service.factory.SincronizacaoFactory;
 
 @Component
 public class SincronizacaoFactoryImpl implements SincronizacaoFactory {

@@ -1,4 +1,4 @@
-package com.github.leonardowiest.factory;
+package com.github.leonardowiest.service.factory;
 
 @FunctionalInterface
 public interface SincronizacaoPrimariaFactory {
